@@ -16,8 +16,7 @@ for dep in &precursor.root_crate().dependencies {
 ```
 
 The format is unstable, see the [Cargo documentation](https://doc.rust-lang.org/nightly/cargo/reference/unstable.html#sbom)
-and the [tracking issue](https://github.com/rust-lang/cargo/issues/16565). This crate depends only
-on `serde` and `serde_json`, ignores fields it does not know, and rejects other format versions.
+and the [tracking issue](https://github.com/rust-lang/cargo/issues/16565).
 
 <hr/>
 
