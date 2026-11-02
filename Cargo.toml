@@ -1,0 +1,16 @@
+[package]
+name = "cargo-sbom-precursor"
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.85"
+description = "Types for reading the SBOM precursor files Cargo writes with -Z sbom"
+license = "MIT OR Apache-2.0"
+authors = ["Veit Heller <veit@veitheller.de>"]
+repository = "https://github.com/hellerve/cargo-sbom-precursor"
+readme = "README.md"
+keywords = ["cargo", "sbom", "supply-chain"]
+categories = ["development-tools::cargo-plugins", "parser-implementations"]
+
+[dependencies]
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"

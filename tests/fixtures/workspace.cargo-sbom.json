@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "root": 0,
+  "crates": [
+    {
+      "id": "path+file:///path/to/ws/app#0.1.0",
+      "features": [],
+      "dependencies": [
+        {
+          "index": 1,
+          "kind": "build"
+        },
+        {
+          "index": 3,
+          "kind": "build"
+        },
+        {
+          "index": 5,
+          "kind": "normal"
+        }
+      ],
+      "kind": [
+        "bin"
+      ]
+    },
+    {
+      "id": "path+file:///path/to/ws/app#0.1.0",
+      "features": [],
+      "dependencies": [
+        {
+          "index": 2,
+          "kind": "normal"
+        }
+      ],
+      "kind": [
+        "custom-build"
+      ]
+    },
+    {
+      "id": "path+file:///path/to/ws/gen#0.3.0",
+      "features": [],
+      "dependencies": [
+        {
+          "index": 4,
+          "kind": "normal"
+        }
+      ],
+      "kind": [
+        "lib"
+      ]
+    },
+    {
+      "id": "path+file:///path/to/ws/mac#0.4.0",
+      "features": [],
+      "dependencies": [],
+      "kind": [
+        "proc-macro"
+      ]
+    },
+    {
+      "id": "path+file:///path/to/ws/util#0.2.0",
+      "features": [],
+      "dependencies": [],
+      "kind": [
+        "lib"
+      ]
+    },
+    {
+      "id": "path+file:///path/to/ws/util#0.2.0",
+      "features": [
+        "extra"
+      ],
+      "dependencies": [],
+      "kind": [
+        "lib"
+      ]
+    }
+  ],
+  "rustc": {
+    "version": "1.95.0-nightly",
+    "wrapper": null,
+    "workspace_wrapper": null,
+    "commit_hash": "b3869b94cd1ed4bfa2eb28f301535d5e9599c713",
+    "host": "aarch64-apple-darwin",
+    "verbose_version": "rustc 1.95.0-nightly (b3869b94c 2026-02-23)\nbinary: rustc\ncommit-hash: b3869b94cd1ed4bfa2eb28f301535d5e9599c713\ncommit-date: 2026-02-23\nhost: aarch64-apple-darwin\nrelease: 1.95.0-nightly\nLLVM version: 22.1.0\n"
+  },
+  "target": "aarch64-apple-darwin"
+}
